@@ -45,7 +45,7 @@ def panen (list):
     print("No.1")
     [print(f"Lokasi Panen {value['nama_lokasi'] } \nHasil Panen Tahun ini:\nPadi {value['hasil_panen']['padi']}\njagung {value['hasil_panen']['jagung']}\nKedelai {value['hasil_panen']['kedelai']}{'\n'}")for value in list.values()]
     print('No 2')
-    [print(f"Lokasi Panen {value ['nama_lokasi']}\nHasil Panen: \nJagung {value['hasil_panen']['jagung']}{'\n'}")for key,value in list.items() if key == 'lokasi2']
+    [print(f"Lokasi Panen {value ['nama_lokasi']}\nHasil Panen Tahun ini: \nJagung {value['hasil_panen']['jagung']}{'\n'}")for key,value in list.items() if key == 'lokasi2']
     print('No 3')
     [print(f"Nama Lokasi {value['nama_lokasi']}{'\n'}")for key,value in list.items() if key == 'lokasi3']
 
