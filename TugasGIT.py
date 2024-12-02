@@ -43,7 +43,7 @@ data_panen = {
 
 def panen (list):
     print("No.1")
-    [print(f"Lokasi Panen {value['nama_lokasi'] } \nHasil Panen:\nPadi {value['hasil_panen']['padi']}\njagung {value['hasil_panen']['jagung']}\nKedelai {value['hasil_panen']['kedelai']}{'\n'}")for value in list.values()]
+    [print(f"Lokasi Panen {value['nama_lokasi'] } \nHasil Panen Tahun lalu:\nPadi {value['hasil_panen']['padi']}\njagung {value['hasil_panen']['jagung']}\nKedelai {value['hasil_panen']['kedelai']}{'\n'}")for value in list.values()]
     print('No 2')
     [print(f"Lokasi Panen {value ['nama_lokasi']}\nHasil Panen: \nJagung {value['hasil_panen']['jagung']}{'\n'}")for key,value in list.items() if key == 'lokasi2']
     print('No 3')
