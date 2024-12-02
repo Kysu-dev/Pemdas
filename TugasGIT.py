@@ -75,3 +75,4 @@ def panen (list):
 
 panen(data_panen)
 print('1')
+print('2')
