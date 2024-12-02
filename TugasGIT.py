@@ -67,10 +67,11 @@ def panen (list):
     print("\nJumlah Total Panen Padi: ",jumlah_padi)
     print("Jumlah Total Panen Kedelai: ",jumlah_kedelai)  
     print('\n')
-    
+
     print("No 6")
     [print(f"Lokasi {key} memerlukan perhatian khusus") if value['hasil_panen']['padi'] > 1300 or value['hasil_panen']['jagung'] > 800 else print(f"Lokasi {key} dalam kondisi baik ") for key, value in list.items()]
 
 
 
 panen(data_panen)
+print('1')
